@@ -28,6 +28,9 @@ function getRandomHexColor() {
 }
 
 Statistics.propTypes = {
-  title: PropTypes.string,
-  stats: PropTypes.array,
+  data: PropTypes.shape({
+    id: PropTypes.string,
+    label: PropTypes.string,
+    percentage: PropTypes.number,
+  }),
 };

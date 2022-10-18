@@ -7,10 +7,7 @@ export default function UserProfile({
   username,
   tag,
   location,
-  followers,
-  views,
-  // quantity,
-  likes,
+  stats,
 }) {
   return (
     <div>
@@ -26,15 +23,15 @@ export default function UserProfile({
         <ul className={css.stats}>
           <li className={css.item}>
             <span className="label">Followers </span>
-            <span className={css.quantity}>{followers}</span>
+            <span className={css.quantity}>{stats.followers}</span>
           </li>
           <li className={css.item}>
             <span className="label">Views </span>
-            <span className={css.quantity}>{views}</span>
+            <span className={css.quantity}>{stats.views}</span>
           </li>
           <li className={css.item}>
             <span className="label">Likes </span>
-            <span className={css.quantity}>{likes}</span>
+            <span className={css.quantity}>{stats.likes}</span>
           </li>
         </ul>
       </div>
@@ -47,8 +44,9 @@ UserProfile.propTypes = {
   username: PropTypes.string,
   tag: PropTypes.string,
   location: PropTypes.string,
-  followers: PropTypes.number,
-  views: PropTypes.number,
-  // quantity: PropTypes.number,
-  likes: PropTypes.number,
+  stats: PropTypes.shape({
+    followers: PropTypes.number,
+    views: PropTypes.number,
+    likes: PropTypes.number,
+  }),
 };
