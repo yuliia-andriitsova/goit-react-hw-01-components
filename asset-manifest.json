@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/yuliia-andriitsova/goit-react-hw-01-components%20%20/static/css/main.62a3779d.css",
-    "main.js": "/yuliia-andriitsova/goit-react-hw-01-components%20%20/static/js/main.3556097d.js",
-    "static/media/default.png": "/yuliia-andriitsova/goit-react-hw-01-components%20%20/static/media/default.961568814dceb733c85a.png",
-    "index.html": "/yuliia-andriitsova/goit-react-hw-01-components%20%20/index.html",
-    "main.62a3779d.css.map": "/yuliia-andriitsova/goit-react-hw-01-components%20%20/static/css/main.62a3779d.css.map",
-    "main.3556097d.js.map": "/yuliia-andriitsova/goit-react-hw-01-components%20%20/static/js/main.3556097d.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.62a3779d.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.3eb6a83e.js",
+    "static/media/default.png": "/goit-react-hw-01-components/static/media/default.961568814dceb733c85a.png",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.62a3779d.css.map": "/goit-react-hw-01-components/static/css/main.62a3779d.css.map",
+    "main.3eb6a83e.js.map": "/goit-react-hw-01-components/static/js/main.3eb6a83e.js.map"
   },
   "entrypoints": [
     "static/css/main.62a3779d.css",
-    "static/js/main.3556097d.js"
+    "static/js/main.3eb6a83e.js"
   ]
 }
