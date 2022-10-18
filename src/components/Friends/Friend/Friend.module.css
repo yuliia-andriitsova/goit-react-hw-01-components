@@ -1,0 +1,24 @@
+.statusOnline {
+  background-color: green;
+  border: 5px solid green;
+  border-radius: 50%;
+}
+
+.statusOffline {
+  background-color: red;
+  border: 5px solid red;
+  border-radius: 50%;
+}
+
+.item {
+  display: flex;
+  width: 200px;
+  padding: 10px 10px;
+  background-color: #fff;
+  align-items: center;
+  box-shadow: 5px 4px 5px -3px rgba(0, 0, 0, 0.75);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
